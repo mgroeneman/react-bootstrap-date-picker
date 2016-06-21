@@ -44,7 +44,7 @@ const CalendarHeader = React.createClass({
 
 const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-const Calendar = React.createClass({
+export const Calendar = React.createClass({
   displayName: "DatePickerCalendar",
   propTypes: {
     selectedDate: React.PropTypes.object,
